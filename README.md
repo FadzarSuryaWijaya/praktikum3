@@ -3,7 +3,7 @@
 
 ## Laporan Praktikum
 ### Latihan 1
-,,,
+
     # penggunaan end
     print('A', end='')
     print('B', end='')
@@ -45,9 +45,9 @@
     print('{0:>3} {1:>16}'.format(8, 10**8))
     print('{0:>3} {1:>16}'.format(9, 10**9))
     print('{0:>3} {1:>16}'.format(10, 10**10))
-''' 
+
 ### Latihan2
-'''
+
     a=input("masukkan nilai a:")
     b=input("masukkan nilai b:")
     print("Variable a=",a)

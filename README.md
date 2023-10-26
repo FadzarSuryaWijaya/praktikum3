@@ -45,7 +45,9 @@
     print('{0:>3} {1:>16}'.format(8, 10**8))
     print('{0:>3} {1:>16}'.format(9, 10**9))
     print('{0:>3} {1:>16}'.format(10, 10**10))
-
+* penggunaan end, berfungsi untuk menjadikan dua line print berbeda menjadi 1 baris yang sama
+* penggunaan separator, berfungsi untuk memisahkan argumen, fungsi sep digunakan untuk memberi kesamaan tanda pemisah
+* string format, berfungsi untuk format int menjadi string atau format suatu nilai dan memasukkan nilai ke dalam pengganti string{} 
 ### Latihan2
 
     a=input("masukkan nilai a:")
@@ -60,6 +62,11 @@
     print("Hasil penjumlahan {0}+{1}={2}".format(a, b, a+b))
     print("Hasil pembagian {0}/{1}={2:.2f}".format(a, b, a/b))
 
+* input a&b = menginput nilai yang diminta untuk variabel a&b
+* print("variable a=", a) & ("variable b=", b) = mengeluarkan output text dan memanggil nilai yang telah di input
+* a=int(a) & a=int(b) = mengubah string menjadi integer guna menyelesaikan operasi matematika
+* format = digunakan menggabungkan string dengan variabel integer
+* {2:.2f} = menghasilkan output maks 2 bilangan setelah koma (.)
 ### Latihan3
 
     print('##  Program Python Belah Ketupat Bintang  ##')
@@ -85,3 +92,10 @@
       for k in range(lebar_belah_ketupat-i):
         print('* ',end='')
       print()
+
+*  for i in range(lebar_belah_ketupat) = untuk mencetak loop bagian atas belah ketupat sebanyak input
+*  for j in range(lebar_belah_ketupat-i) = untuk mencetak sebelum bintang setiap baris
+*  for k in range(i_+1) = untuk mencetak loop bintang 
+*  for i in range(1,lebar_belah_ketupat) = loop kedua mencetak bagian bawah belah ketupat. Loop ini juga akan berjalan  for j in range(lebar_belah_ketupat-i) kali.
+*  for j in range(i+1) = loop mencetak spasi sebelum bintang bagian bawah
+*  for k in range(lebar_belah_ketupat-i) = loop mencetak bintang pada setiap baris bagian bawah
